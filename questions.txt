@@ -1,3 +1,4 @@
 Kakvo sustoqnie e polqrizaciqta?#Polqrizaciqta e sustoqnie na dielektrika, koeto se harakterizira s towa, che elektricheskiqt moment na makroskopichen obem ot nego e otlichen ot nyla.
 Kakuv proces e polqrizaciqta?#Polqrizaciqta predstavlqva proces na izmestvane na elastichno svurzvanite elektricheski zarqdi v dielektrika i orientirane na dipolnite molekyli
 Kak se izvurshva polqrizaciqta pri postoqnno elektrichesko pole, a kak pri promenlivo?#Pri postoqnno elektrichesko pole, polqrizaciqta se ystanovqva ednokratno i ednoposochno v zavisimost ot posokata na prilojenoto elektrichesko pole. Pri promenlivo elektrichesko pole, polqrizaciqta se izvurshva neprekusnato, kato sledva posokata na intenziteta na poleto.
+Koi sa purvichnite vruzki na tvurdite tela?#ionna, kovalentna i metalna
