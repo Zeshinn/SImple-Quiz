@@ -1,5 +1,8 @@
 import random
-
+RED    = "\033[31m"
+GREEN  = "\033[32m"
+YELLOW = "\033[33m"
+WHITE  = "\033[37m"
 
 user = input("1 - Start quiz\n2 - Enter questions for the quiz\n")
 if user == "1":
@@ -11,16 +14,16 @@ if user == "1":
     random.shuffle(questions_and_answers)
     for i in questions_and_answers:
         question, answer = i.split("#")
-        print(question)
+        print(f"{YELLOW}{question}{WHITE}")
         input("Enter anything to reveal answer...")
-        print(answer)
+        print(f"{GREEN}{answer}{WHITE}")
         score = input("Was your answer correct? (y/n): ")
         if score == "y":
             correct_answers += 1
         else:
             wrong_answers += 1
-    print(f"Correct answers: {correct_answers}")
-    print(f"Wrong answers: {wrong_answers}")
+    print(f"Correct answers: {GREEN}{correct_answers}{WHITE}")
+    print(f"Wrong answers: {RED}{wrong_answers}{WHITE}")
 elif user == "2":
     question_file = open("questions.txt", "a")
     user = "y"
