@@ -1,8 +1,16 @@
-import random
-RED    = "\033[31m"
-GREEN  = "\033[32m"
-YELLOW = "\033[33m"
-WHITE  = "\033[37m"
+import random, sys
+RED    = ""
+GREEN  = ""
+YELLOW = ""
+WHITE  = ""
+args = sys.argv[1:]
+if len(args) > 0:
+    if "-color" in args:
+        RED    = "\033[31m"
+        GREEN  = "\033[32m"
+        YELLOW = "\033[33m"
+        WHITE  = "\033[37m"
+    
 
 user = input("1 - Start quiz\n2 - Enter questions for the quiz\n")
 if user == "1":
