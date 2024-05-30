@@ -5,6 +5,9 @@ YELLOW = ""
 WHITE  = ""
 args = sys.argv[1:]
 if len(args) > 0:
+    if "-help" in args:
+        print("Arguments:       Description:\n-color        Turns on colorful mode\n-help       Lists every argument and how it's used")
+        exit()
     if "-color" in args:
         RED    = "\033[31m"
         GREEN  = "\033[32m"
